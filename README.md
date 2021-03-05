@@ -13,10 +13,15 @@ My server is running: Ubuntu 20.04.1 LTS
 
 This is my apache config file for my website
 
-linux path:
+path;
 
 ```bash
-/etc/apache2/sites-available/000-default.conf
+/etc/apache2/sites-available/marcantoinericard.com.conf
+```
+
+my website path:
+```bash
+/var/www/marcantoinericard.com/
 ```
 
 ### netplan
@@ -24,11 +29,17 @@ linux path:
 This file allow me to have static ip address at home. It's a lot easier
 for me to connect with putty.
 
-linux path:
+path;
 
 ```bash
  /etc/netplan/00-installer-config.yaml
 ```
 
-note for me:
-use crontab for automatic updates
+### crontab
+This is my crontab file to automate updates
+
+path;
+```bash
+ /var/spool/cron/crontabs/myCrontab
+```
+
