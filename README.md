@@ -29,6 +29,7 @@ sudo a2enmod proxy_wstunnel
 
 sudo a2enmod rewrite
 
+This server can now deal with websocket
 
 my website path:
 ```bash
