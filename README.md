@@ -20,9 +20,13 @@ path;
 ```
 
 Also, for the proper functioning of the config files;
+
 sudo a2enmod proxy
+
 sudo a2enmod proxy_http
+
 sudo a2enmod proxy_wstunnel
+
 sudo a2enmod rewrite
 
 
